@@ -7,7 +7,7 @@ h1.baslik{
 }
 
 h1{
-    color: aqua;
+    color: aqua!important;
 }
 
 *{

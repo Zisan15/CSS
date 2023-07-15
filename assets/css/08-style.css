@@ -1,0 +1,17 @@
+/* 
+bu bir yorum satırıdır 
+
+*/
+
+nav.nav-el{
+    color: black;
+    background-color: lightgray;
+    text-align: center;
+    
+}
+
+div.active{
+    background-color: rgb(40, 38, 38);
+    color: white;
+    padding: 1.2rem;
+}
