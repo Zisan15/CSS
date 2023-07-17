@@ -1,16 +1,33 @@
 a{
     color: green;
 }
+
 a:link{
     color: red;
    
 }
+
 a:visited{
     color: rgb(120, 100, 33);
     
 }
+
 a:hover{
-background-color: aqua;
+background-color: rgb(12, 145, 145);
 color: whitesmoke;
 font-size: 1.3rem;
+text-decoration: none;
+}
+
+a:active{
+    color: blueviolet;
+}
+
+h1.baslik:hover{
+    color: blueviolet;
+    background-color: chocolate;
+}
+
+ul li{
+    list-style-type: square;
 }
