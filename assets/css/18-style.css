@@ -27,3 +27,59 @@ body {
       width: 20px;
       height: 15px;
   }
+
+  main section{
+    text-align: center;
+    margin-bottom: 15px;
+    padding-top: 20px;
+    background-color: rgb(43, 42, 42);
+    color: aliceblue;
+
+  }
+
+  main section.iphone14{
+    background-color: white;
+    color: black;
+  }
+
+  main section h2{
+    font-size: 3.6rem;
+    margin-top: 0;
+    margin-bottom: -25px;
+  }
+
+  main section p{
+    font-size: 2rem;
+    color: rgb(101, 95, 95);
+  }
+
+  main section p.satis-tarihi{
+    font-size: 1.4rem;
+    color: rgb(128, 125, 125);
+  }
+
+  main section p.linkler{
+    font-size: 1.4rem;
+    margin-bottom: 65px;
+  }
+
+  main section p.linkler a{
+    margin-right: 25px;
+  }
+
+  main section.watch h2 img{
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+  }
+
+  main section.watch .series{
+
+    font-size: 1.4rem;
+    letter-spacing: 0.5rem; /* harflerin arasını açıyor*/
+    color: #B72436;
+    text-transform: uppercase; /*küçük yazsan bile onu alır büyük harflerle yazar*/
+
+  }
+  
+  
