@@ -1,0 +1,50 @@
+
+.container{
+    display: flex;  /*flex defaultta row (yatay) çalışır. flex parenta veriyoruz çünkü child'lar da etkilensin diye*/
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    /* 
+    * flex-start -> tüm yapı sola yaslı
+
+    * flex-end -> yapı sağa yaslı
+     
+    * space-between -> biri en sağ diğeri en sol ortadakileri belli aralıklarla yerleştirmesini yapıyor
+     
+    * space-around -> yanlardan boşluk bırakıyor ve aralardaki boşluklar yanlardaki boşlukların iki katı
+     
+    * space-evenly -> hem kenar boşlukları hem de içteki boşluklar eşit olmuş oluyor
+
+    align item : item lari hizalama  , justify-content:  icerigi duzenleme
+    */
+}
+
+.container div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 100vh;
+}
+
+.container div:nth-child(1){
+    background-color: aqua;
+}
+
+.container div:nth-child(2){
+    background-color: rgb(55, 255, 0);
+}
+
+.container div:nth-child(3){
+    background-color: rgb(255, 0, 0);
+}
+
+.container div:nth-child(4){
+    background-color: rgb(13, 0, 255);
+}
+
+.container div:nth-child(5){
+    background-color: rgb(255, 0, 195);
+}
