@@ -15,7 +15,7 @@ section.stackfindover{
     flex-wrap: wrap; /* ekranı küçültünce yapıyı aşağı indiriyor*/
     gap: 2rem;
     padding: 30px 30px 0 30px;
-    background-image: linear-gradient(45deg,var(--color1),var(--color2));
+    background-image: linear-gradient(45deg,var(--color1),var(--color2),var(--color3));
 }
 
 .stackfindover .logo{
@@ -24,5 +24,72 @@ section.stackfindover{
     align-items: center;
     color: var(--color3)
 }
+
+.stackfindover .logo h3{
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 900px;
+    margin-bottom: -8px;/*altlı üstlü iki yazının arasını sıklaştırdım*/
+
+}
+
+.stackfindover .logo span{
+    font-size: 0.8rem;
+}
+
+.stackfindover >div:first-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 50px;
+    flex: 2 1 300px; /* sayfa düzenindeki yazı, resim , diğer yazının kaplaması gereken alanı belirledim*/
+}
+
+.stackfindover >div:first-child img{
+    width: 100%;
+    height: auto;
+}
+
+.stackfindover >div:last-child{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 3 1 500px; /* en soldaki yazının kendi arasındaki mesafeyi ayarladım*/
+}
+
+
+.stackfindover >div:last-child * {
+    margin: 0;
+    padding: 0;
+    color: var(--color3);
+     
+}
+
+.stackfindover >div:last-child h2{
+    font-size: 2.6rem;
+    font-weight: 900;
+}
+
+
+.stackfindover >div:last-child h3{
+    font-size: 1.5rem;
+    opacity: 0.5;
+}
+
+.stackfindover >div:last-child i{
+    background-color: var(--color4);
+    padding: 5px 15px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+
+
+
+
 
 
