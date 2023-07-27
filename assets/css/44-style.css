@@ -2,7 +2,8 @@
     --color1: rgb(70, 189, 244);
     --color2: #FBB040;
     --color3: rgb(52, 52, 52);
-    --color4:white;
+    --color4:rgb(227, 222, 222);
+    --colorWhatsapp:green;
 }
 body{
     font-family: 'Nunito', sans-serif;
@@ -31,8 +32,10 @@ section.menubar{
 display: flex;
 justify-content: space-between;
 align-items: center;
-padding: 15px;position: sticky;
+padding: 15px;
+position: sticky;
 top: 0;
+background-color: var(--color4);
 }
 section.menubar img{
     width: 300px;
@@ -49,6 +52,7 @@ section.menubar  ul a{
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
+    cursor: pointer;
 }
 section.menubar  ul a:hover{
    background-color: var(--color3);
@@ -74,3 +78,22 @@ section.slider h2{
     color: var(--color4);
     text-shadow: 0 0 10px var(--color4);
 }
+div.icon{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 3rem;
+    background-color: var(--colorWhatsapp);
+    color: var(--color4);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
